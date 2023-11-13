@@ -1,29 +1,30 @@
 ### VARIABLES
 variable "project-id" {
-  type = string
+  type    = string
+  default = "advanced-terraform-405015"
 }
 
 variable "region" {
-  type = string
+  type    = string
   default = "us-central1"
 }
 
 variable "zone" {
-  type = string
+  type    = string
   default = "us-central1-a"
 }
 
 variable "subnet-name" {
-  type = string
+  type    = string
   default = "subnet1"
 }
 
 variable "subnet-cidr" {
-  type = string
+  type    = string
   default = "10.127.0.0/20"
 }
 
 variable "private_google_access" {
-  type = bool
+  type    = bool
   default = true
 }
